@@ -1,1 +1,0 @@
-const o="kaleidocli",s="Kaho",a="Cli",t="Behemoth, Primal",e="aknalumos",n="Kaho Cli",A="An Au'Ra with passionate color palettes + a hobby of being cute. In love with spicy street foods.";export{t as A,e as D,n as F,o as G,a as L,A as a,s as b};

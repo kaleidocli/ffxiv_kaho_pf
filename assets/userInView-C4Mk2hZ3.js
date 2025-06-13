@@ -1,0 +1,1 @@
+import{r as o}from"./index-D3Z_yVP2.js";const i=(r,s)=>{const t=o.useRef(null);return o.useEffect(()=>{const n=new IntersectionObserver(([c])=>{c.isIntersecting&&r(s)},{threshold:.2}),e=t.current;return e&&n.observe(e),()=>{e&&n.unobserve(e)}},[r,s]),t};export{i as u};
