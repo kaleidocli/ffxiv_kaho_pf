@@ -20,7 +20,7 @@ const sections = [
 
 function App() {
     // State to hold the current background class
-    const [backgroundClass, setBackgroundClass] = useState('bg-kc_banner_with_text');
+    const [backgroundClass, setBackgroundClass] = useState('bg-kc_banner_no_text');
 
     // A memoized callback function to update the background state
     const handleSectionInView = useCallback((newClass) => {
