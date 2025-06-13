@@ -21,7 +21,7 @@ const Contact = ({ onInView, bgClass }) => {
               <div className='mr-4'>
                 <a href={`https://github.com/${GITHUB_USERNAME}`} target='_blank' rel='noreferrer'>
                 <span className='mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
-                  <img src='/images/icons/github.svg' alt='' width='24px' height='24px' className='mr-1'/>
+                  <img src='./images/icons/github.svg' alt='' width='24px' height='24px' className='mr-1'/>
                   {GITHUB_USERNAME}
                 </span>
                 </a>
@@ -29,7 +29,7 @@ const Contact = ({ onInView, bgClass }) => {
 
               <a href={`https://discord.com/`} target='_blank' rel='noreferrer'>
               <span className='mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
-                <img src='/images/icons/discord.svg' alt='' width='24px' height='24px' className='mr-1'/>
+                <img src='./images/icons/discord.svg' alt='' width='24px' height='24px' className='mr-1'/>
                 @{DISCORD_TAG}
               </span>
               </a>

@@ -9,5 +9,5 @@ export const DISCORD_TAG = 'aknalumos';
 export const FRONT_PAGE_NAME = 'Kaho Cli';
 export const FRONT_PAGE_DESC =
     "An Au'Ra with passionate color palettes + a hobby of being cute. " +
-    "In love with spicy street foods."
+    "In search of spicy street foods."
 

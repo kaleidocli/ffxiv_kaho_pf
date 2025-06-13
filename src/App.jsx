@@ -42,7 +42,7 @@ function App() {
             The background class is now dynamic.
           */}
             <div
-                className={`bg-fixed bg-no-repeat bg-contain 
+                className={`bg-fixed bg-no-repeat bg-[length:auto_100%]
                     ${backgroundClass === 'bg-kc_banner_with_text' ? 'bg-right-bottom' : 'bg-right-bottom'} 
                     transition-all duration-400 ${backgroundClass} bg-jade`}
             >

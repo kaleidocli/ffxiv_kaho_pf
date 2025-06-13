@@ -17,7 +17,7 @@ const Hero = ({ onInView, bgClass }) => {
                       as well as five different US National Parks and many states across the US.
                   </p>
                   <picture className='flex w-full shadow-lg '>
-                      <img src="/images/advCard.webp" alt="An adventurer card of Kaho Cli"/>
+                      <img src="./images/advCard.webp" alt="An adventurer card of Kaho Cli"/>
                   </picture>
 
                   <p className='tracking-wide leading-relaxed text-sm text-sky-300/10'>
