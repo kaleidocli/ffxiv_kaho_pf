@@ -4,8 +4,9 @@ const Header = lazy(() => import('./components/Header.jsx'));
 const Hero = lazy(() => import('./components/Hero.jsx'));
 const Project = lazy(() => import('./components/Project.jsx'));
 const Skill = lazy(() => import('./components/Skill.jsx'));
-const Contact = lazy(() => import('./components/Contact'));
+const Contact = lazy(() => import('./components/Contact.jsx'));
 const Experience = lazy(() => import('./components/Experience.jsx'))
+const Outside = lazy(() => import('./components/Outside.jsx'));
 function App() {
   return (
       <Suspense
@@ -25,8 +26,9 @@ function App() {
                       <Hero/>
                       <Experience/>
                       <Project/>
+                      <Outside/>
                       {/*<Skill />*/}
-                      {/*<Contact />*/}
+                      <Contact />
                   </main>
               </div>
           </div>

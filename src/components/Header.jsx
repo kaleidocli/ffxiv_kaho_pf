@@ -23,6 +23,16 @@ const Header = () => {
               Gallery
             </a>
           </li>
+          <li>
+            <a href='#Outside' className='block py-3 px-4 hover:bg-gray-700 focus:bg-gray-700 rounded-lg'>
+              Other
+            </a>
+          </li>
+          <li>
+            <a href='#contact' className='block py-3 px-4 hover:bg-gray-700 focus:bg-gray-700 rounded-lg'>
+              Contact
+            </a>
+          </li>
 
           {/*<li>*/}
           {/*  <a href={RESUME_PATH} target='_blank' rel='noreferrer'*/}

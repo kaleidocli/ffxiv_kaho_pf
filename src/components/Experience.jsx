@@ -1,11 +1,13 @@
 import workHistory from '../ExData'
 import './style.ex.css'
+import {FRONT_PAGE_NAME} from "../root.link.js";
+import React from "react";
 function Experience() {
     return (
         <div id="Experience" className="">
-            <section  id='experience' className='my-28 px-5 h-screen'>
+            <section  id='experience' className='my-28 px-5'>
                 <header className='text-5xl font-bold pt-10 border-b-2 border-gray-300 pb-3'>
-                    <h2>Experience</h2>
+                    <h1 className='font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl'>Experience</h1>
                 </header>
                 <div className=''>
                     <div className="main-cont">
@@ -23,9 +25,9 @@ function Experience() {
                                                     <span className="text-2xl"></span> {x}
                                                 </h4>
                                             ))}
-                                            
+
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                             ))}

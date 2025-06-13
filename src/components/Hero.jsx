@@ -10,13 +10,14 @@ const Hero = () => {
                   <p className='tracking-wide leading-relaxed text-lg md:text-xl'>
                       {FRONT_PAGE_DESC}{' '}
                   </p>
-                  <picture className='flex w-full shadow-lg '>
-                      <img src="/images/advCard.webp" alt="An adventurer card of Kaho Cli"/>
-                  </picture>
                   <p className='tracking-wide leading-relaxed text-lg md:text-xl'>
                       Been to Thailand, Vietnam, China, Japan, Cambodia,
                       as well as five different US National Parks and many states across the US.
                   </p>
+                  <picture className='flex w-full shadow-lg '>
+                      <img src="/images/advCard.webp" alt="An adventurer card of Kaho Cli"/>
+                  </picture>
+
                   <p className='tracking-wide leading-relaxed text-sm text-sky-300/10'>
                       (definitely not basing this on my work portfolio)
                   </p>

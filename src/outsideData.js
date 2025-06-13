@@ -1,0 +1,60 @@
+const outsides = [
+  {
+    title: 'Plugins!',
+    image: './images/pf_bozjabuddy.webp',
+    description: "I made a plugin for Bozja content! Last time I checked, it has around 200,000 downloads or something. I'm also working on my Master degree at UC Irvine, specializing in AI, so there might be a good topic to talk about too :D",
+    tools: [],
+    github: '',
+    link: '',
+  },
+  {
+    title: "Monster Hunter Wild",
+    image: './images/mhwi.webp',
+    description: "Greatsword main. SnS main. 50 Chaotic Gore Magala lying at my feet.",
+    tools: [],
+    github: '',
+    link: '',
+  },
+  {
+    title: "Monster Hunter Rise",
+    image: './images/mhr.webp',
+    description: "Same. Eating Hazard Primordial Malzeno like my dinner. Not Amatsu though, that thing is too annoying to worth the effort.",
+    tools: [],
+    github: '',
+    link: '',
+  },
+  {
+    title: "Monster Hunter World",
+    image: './images/mhw.webp',
+    description: "Fatalis is a joke. Still die to Kulu-ya-ku anyway. Also yes, by now you can tell my favorite character design in games :^)",
+    tools: [],
+    github: '',
+    link: '',
+  },
+  {
+    title: "Elden Ring & Soulsborne",
+    image: './images/er.webp',
+    description: "Have played most Fromsoft games and Souls-like such as Nioh. Been playing Nightreign :)",
+    tools: [],
+    github: '',
+    link: '',
+  },
+  {
+    title: "Other games",
+    image: './images/steam.webp',
+    description: "My Steam fav list! I also play some gachas as well, like Genshin or Fate/Grand Order. Don't hook me up on FGs though, I only play GBFV because of Narmaya.",
+    tools: [],
+    github: '',
+    link: '',
+  },
+  {
+    title: "Meow",
+    image: './images/cat.webp',
+    description: "Here's my friend's cat :D",
+    tools: [],
+    github: '',
+    link: '',
+  },
+];
+
+export default outsides;
