@@ -1,10 +1,12 @@
+import React from 'react';
+import useInView from '../hooks/userInView.jsx'; // Import the custom hook
 import { FRONT_PAGE_DESC, FRONT_PAGE_NAME } from '../root.link';
-import React from "react";
 
-const Hero = () => {
+const Hero = ({ onInView, bgClass }) => {
+    const sectionRef = useInView(onInView, bgClass);
   return (
       <div id="Hero">
-          <section className="h-screen flex flex-col flex-wrap justify-around items-start p-8 md:p-12">
+          <section ref={sectionRef} className="h-screen flex flex-col flex-wrap justify-around items-start p-8 md:p-12">
               <div className='w-full md:w-1/2 space-y-4'>
                   <h1 className='font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl'>{FRONT_PAGE_NAME}</h1>
                   <p className='tracking-wide leading-relaxed text-lg md:text-xl'>

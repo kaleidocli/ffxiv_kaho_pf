@@ -2,7 +2,7 @@ const outsides = [
   {
     title: 'Plugins!',
     image: './images/pf_bozjabuddy.webp',
-    description: "I made a plugin for Bozja content! Last time I checked, it has around 200,000 downloads or something. I'm also working on my Master degree at UC Irvine, specializing in AI, so there might be a good topic to talk about too :D",
+    description: "I made a plugin for Bozja content! Last time I checked, it has around 200,000 downloads or something. I'm also working on my Master degree at UC Irvine, specializing in Data Analyst, so there might be a good topic to talk about too :D",
     tools: [],
     github: '',
     link: '',

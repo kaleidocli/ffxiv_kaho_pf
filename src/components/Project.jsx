@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import projects from '../projectData';
-import { GITHUB_USERNAME } from '../root.link';
+import useInView from '../hooks/userInView.jsx'; // Import the custom hook
 
-const Project = () => {
+const Project = ({ onInView, bgClass}) => {
     const [chosenIndex, setChosenIndex] = useState(-1);
+    const sectionRef = useInView(onInView, bgClass);
 
   return (
     <div id="Projects">
-        <section id='projects' className='my-28 px-5'>
+        <section ref={sectionRef} id='projects' className={`my-28 px-5`}>
             <header className='text-5xl font-bold pt-10 border-b-2 border-gray-300 pb-3'>
                 <h1 className='font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl'>Gallery</h1>
             </header>

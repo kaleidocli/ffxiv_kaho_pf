@@ -7,8 +7,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'kc_banner_with_text': "url('./images/kc_banner_with_text.webp')",
-        'kc_banner_no_text': "url('./images/kc_banner_no_text.webp')",
+        'kc_banner_with_text': "url('./images/banner_6.webp')",
+        'kc_banner_no_text': "url('./images/banner_4.webp')",
       },
     },
     backgroundColor: (theme) => ({

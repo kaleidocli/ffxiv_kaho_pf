@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import outsides from "../outsideData";
-import { GITHUB_USERNAME } from '../root.link';
+import userInView from '../hooks/userInView.jsx'; // Import the custom hook
 
-const Outside = () => {
+const Outside = ({ onInView, bgClass }) => {
     const [chosenIndex, setChosenIndex] = useState(-1);
+    const sectionRef = userInView(onInView, bgClass);
 
   return (
     <div id="Outside">
-        <section id='outsides' className='my-28 px-5'>
+        <section ref={sectionRef} id='outsides' className='my-28 px-5'>
             <header className='text-5xl font-bold pt-10 border-b-2 border-gray-300 pb-3'>
                 <h1 className='font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl'>Other</h1>
             </header>
