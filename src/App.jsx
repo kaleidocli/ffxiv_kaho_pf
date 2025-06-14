@@ -43,10 +43,11 @@ function App() {
           */}
             <div
                 className={`bg-fixed bg-no-repeat bg-[length:auto_100%]
-                    ${backgroundClass === 'bg-kc_banner_with_text' ? 'bg-right-bottom' : 'bg-right-bottom'} 
+                    bg-[60%_40%] md:bg-right-bottom
                     transition-all duration-400 ${backgroundClass} bg-jade`}
             >
-                <div className="App container mx-48 max-w-screen-lg">
+                <div className="App container md:mx-48 max-w-screen-lg
+                        bg-jade/60 md:bg-jade/0">
                     <Header />
                     <main className="flex flex-col">
                         {/* Map over the sections array to render each component */}

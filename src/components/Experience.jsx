@@ -18,19 +18,20 @@ const Experience = ({ onInView, bgClass }) => {
                             {workHistory && workHistory.map((work) => (
                                 <div key={work?.companyName} className="cd-timeline-block">
                                     <div className="cd-timeline-img cd-picture"></div>
-                                    <div className="cd-timeline-content">
-                                        <h1 className="uppercase font-bold text-2xl pl-3 pt-2 flex">{work?.companyName}
-                                        </h1>
-                                        <h4 className="uppercase font-bold text-base pl-3 pt-2">{work?.role}</h4>
-                                        <div className='pl-2'>
-                                            {work?.workDes && work.workDes.map((x, index) => (
-                                                <h4 key={index} className='text-base pt-2'>
-                                                    <span className="text-2xl"></span> {x}
-                                                </h4>
-                                            ))}
+                                    <div className="ml-[20%] md:ml-0 md:mr-0">
+                                        <div className="cd-timeline-content">
+                                            <h1 className="uppercase font-bold text-2xl pl-3 pt-2 flex">{work?.companyName}
+                                            </h1>
+                                            <h4 className="uppercase font-bold text-base pl-3 pt-2">{work?.role}</h4>
+                                            <div className='pl-2'>
+                                                {work?.workDes && work.workDes.map((x, index) => (
+                                                    <h4 key={index} className='text-base pt-2'>
+                                                        <span className="text-2xl"></span> {x}
+                                                    </h4>
+                                                ))}
 
+                                            </div>
                                         </div>
-
                                     </div>
                                 </div>
                             ))}

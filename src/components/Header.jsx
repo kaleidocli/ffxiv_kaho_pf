@@ -3,8 +3,11 @@ import { RESUME_PATH } from '../root.link';
 const Header = () => {
   return (
       // 1. Change width to height, set a fixed width, and position top-left
-      <nav className='fixed top-0 left-0 h-screen w-32 bg-black/25 backdrop-blur-sm z-50
-                   flex flex-col justify-center items-center'>
+      <nav className='
+          fixed hidden md:flex
+          top-0 left-0 h-screen w-32 z-50
+          bg-black/25 backdrop-blur-sm
+          flex flex-col justify-center items-center'>
 
         {/* 2. Change flex direction to column and adjust spacing */}
         <ul className='flex flex-col space-y-2 text-xl text-center w-full'>

@@ -20,7 +20,7 @@ const useInView = (callback, valueToReturn) => {
             },
             {
                 // The element is considered "in view" when x% of it is visible
-                threshold: 0.5,
+                threshold: 0.2,
             }
         );
 
