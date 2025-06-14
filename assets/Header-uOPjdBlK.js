@@ -1,0 +1,5 @@
+import{j as e}from"./index-CdGsTITt.js";const l=()=>e.jsx("nav",{className:`\r
+          fixed hidden md:flex\r
+          top-0 left-0 h-screen w-32 z-50\r
+          bg-black/25 backdrop-blur-sm\r
+          flex flex-col justify-center items-center`,children:e.jsxs("ul",{className:"flex flex-col space-y-2 text-xl text-center w-full",children:[e.jsx("li",{children:e.jsx("a",{href:"#Hero",className:"block py-3 px-4 hover:bg-gray-700 focus:bg-gray-700 rounded-lg",children:"Home"})}),e.jsx("li",{children:e.jsx("a",{href:"#Experience",className:"block py-3 px-4 hover:bg-gray-700 focus:bg-gray-700 rounded-lg",children:"Experience"})}),e.jsx("li",{children:e.jsx("a",{href:"#Projects",className:"block py-3 px-4 hover:bg-gray-700 focus:bg-gray-700 rounded-lg",children:"Gallery"})}),e.jsx("li",{children:e.jsx("a",{href:"#Outside",className:"block py-3 px-4 hover:bg-gray-700 focus:bg-gray-700 rounded-lg",children:"Other"})}),e.jsx("li",{children:e.jsx("a",{href:"#contact",className:"block py-3 px-4 hover:bg-gray-700 focus:bg-gray-700 rounded-lg",children:"Contact"})})]})});export{l as default};
