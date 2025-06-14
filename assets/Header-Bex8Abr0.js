@@ -1,4 +1,4 @@
-import{j as e}from"./index-CdGsTITt.js";const l=()=>e.jsx("nav",{className:`\r
+import{j as e}from"./index-BS-HJ_5G.js";const l=()=>e.jsx("nav",{className:`\r
           fixed hidden md:flex\r
           top-0 left-0 h-screen w-32 z-50\r
           bg-black/25 backdrop-blur-sm\r
