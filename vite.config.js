@@ -8,5 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/ffxiv_kaho_pf/',
+  base: '/',
 })
+// base: '/ffxiv_kaho_pf/',    ----- for when we're deploying to github page with no custom dns
+// for more ref: https://vite.dev/guide/static-deploy.html#github-pages

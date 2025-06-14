@@ -1,6 +1,7 @@
 {
   "name": "ffxiv_kaho_pf",
   "homepage": "https://kaleidocli.github.io/ffxiv_kaho_pf/",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
